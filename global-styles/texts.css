@@ -1,0 +1,36 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 2rem;
+}
+
+.title__primary{
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.title__secondary{
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+.normal__text{
+    font-weight: 300;
+    font-size: 0.80rem;
+    margin: 0 0 1rem 0;
+}
+
+.text__link{
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 0.80rem;
+    margin: 0 0 1rem 0;
+}
+
+.text__link:hover{
+    transform: scale(1.2);
+    font-weight: 700;
+}
