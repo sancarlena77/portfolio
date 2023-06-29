@@ -1,0 +1,14 @@
+.input__contact{
+    border: 1px solid var(--ligthgray);
+    border-bottom: 2px solid var(--gray);
+    border-radius: 5px;
+    height: 3rem;
+}
+
+.input__contact:hover{
+    border-color: var(--blue);
+}
+
+.input__contact--mensaje{
+    height: 6rem;
+}

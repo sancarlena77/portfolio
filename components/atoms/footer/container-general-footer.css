@@ -1,0 +1,6 @@
+.container__general--footer{
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}

@@ -1,25 +1,32 @@
 body{
     font-family: 'Raleway', sans-serif;
-    padding: 2rem;
 }
 
 .title__primary{
     font-weight: 700;
     font-size: 1.4rem;
     text-align: center;
-    margin: 0 0 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .title__secondary{
     font-weight: 700;
     font-size: 1rem;
-    margin: 0 0 1rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 .normal__text{
     font-weight: 300;
     font-size: 0.80rem;
     margin: 0 0 1rem 0;
+    transition: 1s;
+}
+
+.normal__text--developer{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto;
 }
 
 .text__link{
@@ -34,3 +41,9 @@ body{
     transform: scale(1.2);
     font-weight: 700;
 }
+
+.text__link:visited{
+    color: var(--black);
+}
+
+

@@ -1,0 +1,9 @@
+.logo__schools{
+    width: 30%;
+    height: auto;
+}
+
+.logo__schools:last-child{
+    width: 50%;
+    height: auto;
+}

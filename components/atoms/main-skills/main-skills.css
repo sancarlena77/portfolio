@@ -1,0 +1,6 @@
+@import url(/global-styles/colors.css);
+
+.main__skills{
+    background: var(--ligthgray);
+    padding: .2rem 1rem 0;
+}
