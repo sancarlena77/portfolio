@@ -13,9 +13,12 @@
 
         <!--Estilos básicos globales-->
         <link rel="stylesheet" href="/global-styles/reset.css">
+        <link rel="stylesheet" href="/global-styles/normalize.css">
         <link rel="stylesheet" href="/global-styles/colors.css">
         <link rel="stylesheet" href="/global-styles/texts.css">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
 
         <!--Átomos-->
 
@@ -32,14 +35,26 @@
         <header class="header">
             <div class="container__general container__general--header">
                 <img src="../../assets/logo_auto_awesome_black_24dp.svg" class="logo-header" alt = "Estrellas negras logo del proyecto de portafolio de desarrollo de páginas web">
-                <H2 class="title__secondary">Heidy Murillo Quesada</h2>                
+                <h2 class="title__secondary name">Heidy Murillo Quesada</h2>                
                 <ul class="container__list container--menu-general">
-                    <li class="element__list element__menu--general">Sobre mí</li>
-                    <li class="element__list element__menu--general">Skills</li>
-                    <li class="element__list element__menu--general">Hobbies</li>
-                    <li class="element__list element__menu--general">Formación</li>
-                    <li class="element__list element__menu--general">Proyectos</li>
-                    <li class="element__list element__menu--contact">contacto@heidy.com</li>
+                    <li class="element__list">
+                        <a class="text__link element__menu--general"  href="#">Sobre mí</a>
+                    </li>
+                    <li class="element__list">
+                        <a class="text__link element__menu--general"  href="#">Skills</a>
+                    </li>
+                    <li class="element__list">
+                        <a class="text__link element__menu--general"  href="#">Hobbies</a>
+                    </li>
+                    <li class="element__list">
+                        <a class="text__link element__menu--general"  href="#">Formación</a>
+                    </li>
+                    <li class="element__list">
+                        <a class="text__link element__menu--general"  href="#">Proyectos</a>
+                    </li>
+                    <li class="element__list">
+                        <a class="text__link element__menu--contacto"  href="#">heidy@sancarlena77.com</a>
+                    </li>
                 </ul>
             </div>
         </header>
@@ -48,166 +63,166 @@
             <div class="container__general container__general--main">
                 <div class="container__main--whois">
                     <img src="../assets/pic_developer.jpg" class="picture picture-developer" alt = "Foto de Heidy Murillo Quesada, la desarrolladora de páginas web sosteniendo su réplica en estilo funko pop">
-                    <H1 class="title__primary">Hola, mi nombre es Heidy Murillo Quesada y construyo páginas web</h1>
-                    <H2 class="title__secondary">Soy formada en docencia, contabilidad y marketing con más de 25 años de experiencia y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h2>
+                    <h1 class="title__primary">Hola, mi nombre es Heidy Murillo Quesada y construyo páginas web</h1>
+                    <p class="normal__text">Soy formada en docencia, contabilidad y marketing con más de 25 años de experiencia y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
                     <ul class="container__list container--socialnetwork">
-                        <li class="element__list element--socialnetwork">
-                            GitHub &#129133;
+                        <li class="element__list">
+                            <a class="text__link element--socialnetwork"  href="#">GitHub &#129133;</a> 
                         </li>
-                        <li class="element__list element--socialnetwork">
-                            LinkedIn &#129133;
+                        <li class="element__list">
+                            <a class="text__link element--socialnetwork"  href="#">LinkedIn &#129133;</a>
                         </li>
-                        <li class="element__list element--socialnetwork">
-                            Instagram &#129133;
+                        <li class="element__list">
+                            <a class="text__link element--socialnetwork"  href="#">Instagram &#129133;</a>
                         </li>
-                        <li class="element__list element--socialnetwork">
-                            Currículo &#129133;
+                        <li class="element__list">
+                            <a class="text__link element--socialnetwork"  href="#">Currículo &#129133;</a>
                         </li>
                     </ul>
                 </div>
                 <div class="main__aboutme">
-                    <H2 class="title__secondary">Sobre mí</h2>
+                    <h1 class="title__primary">Sobre mí</h1>
                     <p class="normal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
 
                     <p class="normal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus</p>
                 </div>
                 <div class="main__skills">
-                    <H2 class="title__secondary">Skills</h2>
+                    <h1 class="title__primary">Skills</h1>
                     <ul class="container__list container--skills">
                         <li class="element__list element--skills">
                             <img src="../assets/icon_html5.svg" class="icon icon-skills" alt = "ícono con el logo de hmtl 5">
-                            HTML 5
+                            <h2 class="title__secondary title__skills">HTML 5</H2>
                         </li>
                         <li class="element__list element--skills">
                             <img src="../assets/icon_js.svg" class="icon icon-skills" alt = "ícono con el logo de Javascript">
-                            Javascript
+                            <h2 class="title__secondary title__skills">Javascript</H2>
                         </li>
                         <li class="element__list element--skills">
                             <img src="../assets/icon_php.svg" class="icon icon-skills" alt = "ícono con el logo de php">
-                            PHP
+                            <h2 class="title__secondary title__skills">PHP</h2>
                         </li>
                         <li class="element__list element--skills">
                             <img src="../assets/icon_node.svg" class="icon icon-skills" alt = "ícono con el logo de Node JS">
-                            Node JS
+                            <h2 class="title__secondary title__skills">Node JS</h2>
                         </li>
                         <li class="element__list element--skills">
                             <img src="../assets/icon_react.svg" class="icon icon-skills" alt = "ícono con el logo de React">
-                            React
+                            <h2 class="title__secondary title__skills">React</h2>
                         </li>
                         <li class="element__list element--skills">
                             <img src="../assets/icon_css-file 1.svg" class="icon icon-skills" alt = "ícono con el logo de CSS">
-                            CSS
+                            <h2 class="title__secondary title__skills">CSS</h2>
                         </li>
                     </ul>
                 </div>
                 <div class="main__hobbies">
-                    <H2 class="title__secondary">Hobbies</h2>
+                    <h1 class="title__primary">Hobbies</h1>
                     <ul class="container__list container__list--hobbies">
                         <li class="element__list element__list--hobbies">
                             <img src="../assets/icon_skateboarding_black_24dp (1) 1.svg" class="icon icon-hobbies" alt = "ícono con una persona en una patineta">
-                            Patinaje
+                            <h2 class="title__secondary title__hobbies">Patinaje</h2>
                         </li>
                         <li class="element__list element__list--hobbies">
                             <img src="../assets/icon_guitar.svg" class="icon icon-hobbies" alt = "ícono con un bajo">
-                            Tocar bajo
+                            <h2 class="title__secondary title__hobbies">Tocar bajo</h2>
                         </li>
                         <li class="element__list element__list--hobbies">
                             <img src="../assets/icon_headphones_black_24dp 1.svg" class="icon icon-hobbies" alt = "ícono con audífonos">
-                            Oir música
+                            <h2 class="title__secondary title__hobbies">Oír música</h2>
                         </li>
                         <li class="element__list element__list--hobbies">
                             <img src="../assets/icon_tv_black_24dp 1.svg" class="icon icon-hobbies" alt = "ícono con un TV">
-                            Ver séries
+                            <h2 class="title__secondary title__hobbies">Ver séries</h2>
                         </li>
                         <li class="element__list element__list--hobbies">
                             <img src="../assets/icon_restaurant_menu_black_24dp 1.svg" class="icon icon-hobbies" alt = "ícono con una cuchara y un cuchillo cruzados">
-                            Cocinar
+                            <h2 class="title__secondary title__hobbies">Cocinar</h2>
                         </li>
                         <li class="element__list element__list--hobbies">
                             <img src="../assets/icon_photo_camera_black_24dp 1.svg" class="icon icon-hobbies" alt = "ícono con una cámara">
-                            Tomar fotos
+                            <h2 class="title__secondary title__hobbies">Tomar fotos</h2>
                         </li>
                     </ul>
                 </div>
                 <div class="main__schools">
-                    <H2 class="title__secondary">Formación académica</h2>
+                    <h1 class="title__primary">Formación académica</h1>
                     <ul class="container__list container__list--schools">
                         <li class="element__list element__list--schools">
                             <img src="../assets/logo_ufrp.svg" class="logo logo__schools" alt = "Logo de la Universidad federal do Parana con 3 edificios con columnas griegas y la sigla UFPR">
-                            <p class="normal__text">Análisis de datos</p>
+                            <h2 class="title__secondary title__career">Análisis de datos</h2>
                             <p class="normal__text">2018 - UFPR</p>
                         </li>
                         <li class="element__list element__list--schools">
                             <img src="../assets/logo_alura.svg" class="logo logo__schools" alt = "Logo de escuela ALURA con la palabra escrita">
-                            <p class="normal__text">Formación en UX Design</p>
+                            <h2 class="title__secondary title__career">Formación en UX Design</h2>
                             <p class="normal__text">En curso - UFRJ</p>
                         </li>
                         <li class="element__list element__list--schools">
                             <img src="../assets/logo_UFRJ.svg" class="logo logo__schools" alt = "Logo de la Universidade Federal Do Río de Janeiro, incluye una imagen de la diosa griega Atenea, el nombre de la institución y sus siglas UFRJ">
-                            <p class="normal__text">Posgrado en diseño</p>
+                            <h2 class="title__secondary title__career">Posgrado en diseño</h2>
                             <p class="normal__text">2019 - Alura</p>
                         </li>
                     </ul>
                 </div>
                 <div class="main__experience">
-                    <H2 class="title__secondary">Experiencia Profesional</h2>
+                    <h1 class="title__primary">Experiencia Profesional</h1>
                     <ul class="container__list container--experience">
                         <li class="element__list element--experience">
                             <img src="../assets/pic_secret_code.svg" class="picture picture__experience" alt = "Captura de pantalla de página web con un espacio para escribir y otro espacio para mostrar resultado, así como botones para encriptar, desencriptar y copiar, tiene como título 'Código secreto'">
                             <p class="normal__text">Juego creado con HTML y JavaScript</p>
-                            <H2 class="title__tertiary">Challenge Oracle</h3>
+                            <h2 class="title__secondary title__challenge">Challenge Oracle</h2>
                             <div class="container__button container__button--experience">
-                                <a href="#" class="button button__experience button__experience--repository">Repositorio</a> 
-                                <a href="#" class="button button__experience button__experience--demo">Ver demo</a>
+                                <a href="#" class="text__link button button__experience button__experience--repository">Repositorio</a> 
+                                <a href="#" class="text__link button button__experience button__experience--demo">Ver demo</a>
                             </div>
                         </li>
                         <li class="element__list element--experience">
                             <img src="../assets/pic_hanged.svg" class="picture picture__experience" alt = "Captura de pantalla de página web con el juego 'Ahorcado' faltando solo la pierna izquierda, indicando que ganó con la palabra LOGICA">
                             <p class="normal__text">Encriptador de texto</p>
-                            <H2 class="title__tertiary">Challenge Oracle</h3>
+                            <h2 class="title__secondary title__challenge">Challenge Oracle</h2>
                             <div class="container__button container__button--experience">
-                                <a href="#" class="button button__experience button__experience--repository">Repositorio</a> 
-                                <a href="#" class="button button__experience button__experience--demo">Ver demo</a>
+                                <a href="#" class="text__link button button__experience button__experience--repository">Repositorio</a> 
+                                <a href="#" class="text__link button button__experience button__experience--demo">Ver demo</a>
                             </div>
                         </li>
                         <li class="element__list element--experience">
                             <img src="../assets/pic_encrypter.svg" class="picture picture__experience" alt = "Captura de pantalla de página web con un espacio para escribir y otro espacio para mostrar resultado, así como botones para encriptar, desencriptar y copiar, adicionalmente tiene un niño dibujado observando con lupa una joya">
                             <p class="normal__text">Encriptador de texto</p>
-                            <H2 class="title__tertiary">Challenge Alura Codificador</h3>
+                            <h2 class="title__secondary title__challenge">Challenge Alura Codificador</h2>
                             <div class="container__button container__button--experience">
-                                <a href="#" class="button button__experience button__experience--repository">Repositorio</a> 
-                                <a href="#" class="button button__experience button__experience--demo">Ver demo</a>
+                                <a href="#" class="text__link button button__experience button__experience--repository">Repositorio</a> 
+                                <a href="#" class="text__link button button__experience button__experience--demo">Ver demo</a>
                             </div>
                         </li>
                         <li class="element__list element--experience">
                             <img src="../assets/pic_hanged_2.svg" class="picture picture__experience" alt = "Captura de pantalla de página web con el juego 'Ahorcado'con un juego perdido dado que el muñeco está completo, se muestran las letras AL__A acertadas y BJKC erradas">
                             <p class="normal__text">Juego creado con HTML, CSS y JavaScript</p>
-                            <H2 class="title__tertiary">Challenge Oracle</h3>
+                            <h2 class="title__secondary title__challenge">Challenge Oracle</h2>
                             <div class="container__button container__button--experience">
-                                <a href="#" class="button button__experience button__experience--repository">Repositorio</a> 
-                                <a href="#" class="button button__experience button__experience--demo">Ver demo</a>
+                                <a href="#" class="text__link button button__experience button__experience--repository">Repositorio</a> 
+                                <a href="#" class="text__link button button__experience button__experience--demo">Ver demo</a>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <div class="main__contactme">
-                    <H2 class="title__secondary">Contacto</h2>
+                    <h1 class="title__primary">Contacto</h1>
                     <p class="normal__text">¿Quieres contactarme?</p>
                     <p class="normal__text">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                     <form class="form form__contactme">
                         <label for="name"></label>
-                        <input type="text" id="name" class="input__contact" required placeholder="Nombre">
+                        <input type="text" id="name" class="normal__text input__contact" required placeholder="Nombre">
         
                         <label for="correoelectronico"></label>
-                        <input type="email" id="email" class="input__contact" required placeholder="E-mail">
+                        <input type="email" id="email" class="normal__text input__contact" required placeholder="E-mail">
         
                         <label for="subject"></label>
-                        <input type="text" id="subject" class="input__contact" required placeholder="Asunto">
+                        <input type="text" id="subject" class="normal__text input__contact" required placeholder="Asunto">
         
                         <label for="message"></label>
-                        <textarea cols="20" rows="5" id="message" class="input__contact" required placeholder="Mensaje"></textarea>
+                        <textarea cols="20" rows="5" id="message" class="normal__text input__contact" required placeholder="Mensaje"></textarea>
 
-                        <button class="button button__contact" id="button-contact-submit">Enviar</button> 
+                        <button class="normal__text button button__contact" id="button-contact-submit">Enviar</button> 
         
                     </form>
                 </div>
