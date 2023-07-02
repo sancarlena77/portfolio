@@ -10,3 +10,15 @@
 .element__icon-list *{
     margin: 1rem 0 0 0;
 }
+
+@media screen and (min-width: 768px) {
+    .element__icon-list{
+        width: calc(27vw - 1rem);
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1024px){
+}

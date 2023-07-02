@@ -2,3 +2,14 @@
     background: var(--ligthgray);
     padding: .2rem 1rem 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    .main__hobbies{
+        padding: .2rem 2rem 0;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px){
+}

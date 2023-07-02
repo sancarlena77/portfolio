@@ -9,6 +9,10 @@ body{
     margin: 1.5rem 0;
 }
 
+.title__primary--sobremi, .title__primary--contacto{
+    text-align: left;
+}
+
 .title__secondary{
     font-weight: 700;
     font-size: 1rem;
@@ -46,4 +50,27 @@ body{
     color: var(--black);
 }
 
+
+@media screen and (min-width: 768px) {
+    .title__primary{
+        font-size: 1.7rem;
+    }
+    
+    .title__secondary{
+        font-size: 1.2rem;
+    }
+    
+    .normal__text{
+        font-size: 1.08rem;
+    }
+    
+    .normal__link{
+        font-size: 1.08rem;
+
+}
+
+
+
+@media screen and (min-width: 1024px){
+}
 

@@ -39,6 +39,7 @@
         <link rel="stylesheet" href="components/atoms/main-schools/title-career.css">
  
         <link rel="stylesheet" href="components/atoms/main-contactme/input-contact.css">
+        <link rel="stylesheet" href="components/atoms/main-contactme/button-contact.CSS">
 
         <!--Moléculas-->
 
@@ -57,7 +58,9 @@
         <link rel="stylesheet" href="components/molecules/main/main-aboutme.css">
         <link rel="stylesheet" href="components/molecules/main/main-skills.css">
         <link rel="stylesheet" href="components/molecules/main/main-hobbies.css">
-        <link rel="stylesheet" href="components/molecules/main/main-schools.css">
+        <link rel="stylesheet" href="components/molecules/main//main-schools/main-schools.css">
+        <link rel="stylesheet" href="components/molecules/main/main-schools/container-list-schools.css">
+        <link rel="stylesheet" href="components/molecules/main/main-schools/element-list-schools.css">
         <link rel="stylesheet" href="components/molecules/main/main-experience.css">
         <link rel="stylesheet" href="components/molecules/main/main-contactme.css">
        
@@ -103,25 +106,27 @@
             <div class="container__general container__general--main">
                 <div class="main__whois">
                     <img src="assets/pic_developer.jpg" class="picture picture-developer" alt = "Foto de Heidy Murillo Quesada, la desarrolladora de páginas web sosteniendo su réplica en estilo funko pop">
-                    <h1 class="title__primary hello">Hola, mi nombre es Heidy Murillo Quesada y construyo páginas web</h1>
-                    <p class="normal__text">Soy formada en docencia, contabilidad y marketing con más de 25 años de experiencia y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
-                    <ul class="container__list container--socialnetwork">
-                        <li class="element__list">
-                            <a class="text normal__link normal__link--socialnetwork" href="#">GitHub &#129133;</a> 
-                        </li>
-                        <li class="element__list">
-                            <a class="text normal__link normal__link--socialnetwork" href="#">LinkedIn &#129133;</a>
-                        </li>
-                        <li class="element__list">
-                            <a class="text normal__link normal__link--socialnetwork" href="#">Instagram &#129133;</a>
-                        </li>
-                        <li class="element__list">
-                            <a class="text normal__link normal__link--socialnetwork" href="#">Currículo &#129133;</a>
-                        </li>
-                    </ul>
+                    <div class="container__whois--description">
+                        <h1 class="title__primary hello">Hola, mi nombre es Heidy Murillo Quesada y construyo páginas web</h1>
+                        <p class="normal__text">Soy formada en docencia, contabilidad y marketing con más de 25 años de experiencia y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+                        <ul class="container__list container--socialnetwork">
+                            <li class="element__list">
+                                <a class="text normal__link normal__link--socialnetwork" href="#">GitHub &#129133;</a> 
+                            </li>
+                            <li class="element__list">
+                                <a class="text normal__link normal__link--socialnetwork" href="#">LinkedIn &#129133;</a>
+                            </li>
+                            <li class="element__list">
+                                <a class="text normal__link normal__link--socialnetwork" href="#">Instagram &#129133;</a>
+                            </li>
+                            <li class="element__list">
+                                <a class="text normal__link normal__link--socialnetwork" href="#">Currículo &#129133;</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="main__aboutme">
-                    <h1 class="title__primary">Sobre mí</h1>
+                    <h1 class="title__primary title__primary--sobremi">Sobre mí</h1>
                     <p class="normal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
 
                     <p class="normal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus</p>
@@ -200,14 +205,14 @@
                                 <img src="assets/logo_alura.svg" class="logo logo__schools" alt = "Logo de escuela ALURA con la palabra escrita">
                             </div>
                             <h2 class="title__secondary title__career">Formación en UX Design</h2>
-                            <p class="normal__text">En curso - UFRJ</p>
+                            <p class="normal__text">2019 - Alura</p>
                         </li>
                         <li class="element__list element__logo--list element__list--schools">
                             <div class="container__logo">
-                                <img src="assets/logo_UFRJ.svg" class="logo logo__schools" alt = "Logo de la Universidade Federal Do Río de Janeiro, incluye una imagen de la diosa griega Atenea, el nombre de la institución y sus siglas UFRJ">
+                                <img src="assets/logo_UFRJ.svg" class="logo logo__schools logo__schools--ufrj" alt = "Logo de la Universidade Federal Do Río de Janeiro, incluye una imagen de la diosa griega Atenea, el nombre de la institución y sus siglas UFRJ">
                             </div>
                             <h2 class="title__secondary title__career">Posgrado en diseño</h2>
-                            <p class="normal__text">2019 - Alura</p>
+                            <p class="normal__text">En curso - UFRJ</p>
                         </li>
                     </ul>
                 </div>
@@ -252,7 +257,7 @@
                     </ul>
                 </div>
                 <div class="main__contactme">
-                    <h1 class="title__primary">Contacto</h1>
+                    <h1 class="title__primary title__primary--contacto">Contacto</h1>
                     <p class="normal__text">¿Quiere contactarme?</p>
                     <p class="normal__text">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                     <form class="form form__contactme">

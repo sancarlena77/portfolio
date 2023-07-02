@@ -1,3 +1,16 @@
 .main__aboutme{
-    padding: 0 1rem;
+    padding: 1rem;
+    background-color: var(--ligthblue);
+}
+
+@media screen and (min-width: 768px) {
+    .main__aboutme{
+        padding: 1rem 2rem;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1024px){
 }

@@ -12,6 +12,15 @@
     color: var(--blue);
 }
 
-.button__contact{
-    width: 50%;
+@media screen and (min-width: 768px) {
+    .button__experience--demo{
+        margin-left: 2px;
+        width: 30%;
+    }
 }
+
+
+
+@media screen and (min-width: 1024px){
+}
+

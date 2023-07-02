@@ -2,3 +2,15 @@
     background: var(--ligthgray);
     padding: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    .main__whois{
+        display: flex;
+        padding: 1rem 2.5rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px){
+}

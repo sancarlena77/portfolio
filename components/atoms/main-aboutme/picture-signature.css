@@ -2,3 +2,15 @@
     width: 40%;
     margin: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    .picture__signature {
+        width: 20%;
+        margin: 1rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px){
+}

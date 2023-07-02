@@ -1,10 +1,6 @@
-.element__picture--list{
-    padding: 1rem;
-}
-
 @media screen and (min-width: 768px) {
-    .element__picture--list{
-        
+    .element__list--schools{
+        width: calc(30vw - 1rem);        
     }
 }
 
