@@ -29,7 +29,7 @@ body{
     margin: auto;
 }
 
-.text__link{
+.normal__link{
     font-weight: 400;
     text-decoration: none;
     transition: 0.5s;
@@ -37,12 +37,12 @@ body{
     margin: 0 0 1rem 0;
 }
 
-.text__link:hover{
+.normal__link:hover{
     transform: scale(1.2);
     font-weight: 700;
 }
 
-.text__link:visited{
+.normal__link:visited{
     color: var(--black);
 }
 

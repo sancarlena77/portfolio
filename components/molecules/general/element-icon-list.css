@@ -1,5 +1,3 @@
-@import url(/global-styles/colors.css);
-
 .element__icon-list{
     width: calc(39vw - 1rem);
     background: var(--white);

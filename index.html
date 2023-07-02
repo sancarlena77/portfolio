@@ -16,47 +16,29 @@
         <link rel="stylesheet" href="global-styles/reset.css">
         <link rel="stylesheet" href="global-styles/normalize.css">
         <link rel="stylesheet" href="global-styles/colors.css">
-        <link rel="stylesheet" href="global-styles/texts.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
 
         <!--Átomos-->
+        <link rel="stylesheet" href="components/atoms/global/text.css">
         <link rel="stylesheet" href="components/atoms/global/picture.css">
         <link rel="stylesheet" href="components/atoms/global/icon.css">
-
-        <link rel="stylesheet" href="components/atoms/header/header.css">
-        <link rel="stylesheet" href="components/atoms/header/container-general-header.css">
-        <link rel="stylesheet" href="components/atoms/header/logo-header.css">
-        <link rel="stylesheet" href="components/atoms/header/name.css">
-        <link rel="stylesheet" href="components/atoms/header/container-menu-general.css">
-        <link rel="stylesheet" href="components/atoms/header/element-menu-general.css">
-
-        <link rel="stylesheet" href="components/atoms/main-whois/container-main-whois.css">
-        <link rel="stylesheet" href="components/atoms/main-whois/picture-developer.css">
-        <link rel="stylesheet" href="components/atoms/main-whois/hello.css">
-        <link rel="stylesheet" href="components/atoms/main-whois/container-socialnetwork.css">
-
-        <link rel="stylesheet" href="components/atoms/main-aboutme/main-aboutme.css">
-
-        <link rel="stylesheet" href="components/atoms/main-skills/main-skills.css">
-
-        <link rel="stylesheet" href="components/atoms/main-hobbies/main-hobbies.css">
-
-        <link rel="stylesheet" href="components/atoms/main-schools/main-schools.css">
-        <link rel="stylesheet" href="components/atoms/main-schools/logo-schools.css">
-        <link rel="stylesheet" href="components/atoms/main-schools/title-career.css">
-
-        <link rel="stylesheet" href="components/atoms/main-experience/main-experience.css">
         <link rel="stylesheet" href="components/atoms/global/button.css">
     
-        <link rel="stylesheet" href="components/atoms/main-contactme/main-contactme.css">
-        <link rel="stylesheet" href="components/atoms/global/form.css">
+        <link rel="stylesheet" href="components/atoms/header/logo-header.css">
+        <link rel="stylesheet" href="components/atoms/header/name.css">
+        <link rel="stylesheet" href="components/atoms/header/normal_link-menugeneral.css">
+        
+        <link rel="stylesheet" href="components/atoms/main-whois/picture-developer.css">
+        <link rel="stylesheet" href="components/atoms/main-whois/hello.css">
+
+        <link rel="stylesheet" href="components/atoms/main-aboutme/picture-signature.css">
+        
+        <link rel="stylesheet" href="components/atoms/main-schools/logo-schools.css">
+        <link rel="stylesheet" href="components/atoms/main-schools/title-career.css">
+ 
         <link rel="stylesheet" href="components/atoms/main-contactme/input-contact.css">
-
-        <link rel="stylesheet" href="components/atoms/footer/container-general-footer.css">
-       
-
 
         <!--Moléculas-->
 
@@ -65,8 +47,24 @@
         <link rel="stylesheet" href="components/molecules/general/container-logo.css">
         <link rel="stylesheet" href="components/molecules/general/element-picture-list.css">
         <link rel="stylesheet" href="components/molecules/general/container-button.css">
+        <link rel="stylesheet" href="components/molecules/general/form.css">
 
+        <link rel="stylesheet" href="components/molecules/header/container-general-header.css">
+        <link rel="stylesheet" href="components/molecules/header/container-menu-general.css">
+
+        <link rel="stylesheet" href="components/molecules/main/main-whois/main-whois.css">
+        <link rel="stylesheet" href="components/molecules/main/main-whois/container-socialnetwork.css">
+        <link rel="stylesheet" href="components/molecules/main/main-aboutme.css">
+        <link rel="stylesheet" href="components/molecules/main/main-skills.css">
+        <link rel="stylesheet" href="components/molecules/main/main-hobbies.css">
+        <link rel="stylesheet" href="components/molecules/main/main-schools.css">
+        <link rel="stylesheet" href="components/molecules/main/main-experience.css">
+        <link rel="stylesheet" href="components/molecules/main/main-contactme.css">
+       
         <!--Organismos-->
+        <link rel="stylesheet" href="components/organisms/header.css">
+        <link rel="stylesheet" href="components/organisms/container-general-footer.css">
+
 
     </head>
                 
@@ -80,22 +78,22 @@
                 <h2 class="title__secondary name">Heidy Murillo Quesada</h2>                
                 <ul class="container__list container--menu-general">
                     <li class="element__list">
-                        <a class="text__link element__menu--general"  href="#">Sobre mí</a>
+                        <a class="text normal__link normal__link--menugeneral" href="#">Sobre mí</a>
                     </li>
                     <li class="element__list">
-                        <a class="text__link element__menu--general"  href="#">Skills</a>
+                        <a class="text normal__link normal__link--menugeneral" href="#">Skills</a>
                     </li>
                     <li class="element__list">
-                        <a class="text__link element__menu--general"  href="#">Hobbies</a>
+                        <a class="text normal__link normal__link--menugeneral" href="#">Hobbies</a>
                     </li>
                     <li class="element__list">
-                        <a class="text__link element__menu--general"  href="#">Formación</a>
+                        <a class="text normal__link normal__link--menugeneral" href="#">Formación</a>
                     </li>
                     <li class="element__list">
-                        <a class="text__link element__menu--general"  href="#">Proyectos</a>
+                        <a class="text normal__link normal__link--menugeneral" href="#">Proyectos</a>
                     </li>
                     <li class="element__list">
-                        <a class="text__link element__menu--contacto"  href="#">heidy@sancarlena77.com</a>
+                        <a class="text normal__link normal__link--contactgeneral" href="#">heidy@sancarlena77.com</a>
                     </li>
                 </ul>
             </div>
@@ -103,22 +101,22 @@
 
         <main class="main">
             <div class="container__general container__general--main">
-                <div class="container__main--whois">
+                <div class="main__whois">
                     <img src="assets/pic_developer.jpg" class="picture picture-developer" alt = "Foto de Heidy Murillo Quesada, la desarrolladora de páginas web sosteniendo su réplica en estilo funko pop">
                     <h1 class="title__primary hello">Hola, mi nombre es Heidy Murillo Quesada y construyo páginas web</h1>
                     <p class="normal__text">Soy formada en docencia, contabilidad y marketing con más de 25 años de experiencia y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
                     <ul class="container__list container--socialnetwork">
                         <li class="element__list">
-                            <a class="text__link element--socialnetwork"  href="#">GitHub &#129133;</a> 
+                            <a class="text normal__link normal__link--socialnetwork" href="#">GitHub &#129133;</a> 
                         </li>
                         <li class="element__list">
-                            <a class="text__link element--socialnetwork"  href="#">LinkedIn &#129133;</a>
+                            <a class="text normal__link normal__link--socialnetwork" href="#">LinkedIn &#129133;</a>
                         </li>
                         <li class="element__list">
-                            <a class="text__link element--socialnetwork"  href="#">Instagram &#129133;</a>
+                            <a class="text normal__link normal__link--socialnetwork" href="#">Instagram &#129133;</a>
                         </li>
                         <li class="element__list">
-                            <a class="text__link element--socialnetwork"  href="#">Currículo &#129133;</a>
+                            <a class="text normal__link normal__link--socialnetwork" href="#">Currículo &#129133;</a>
                         </li>
                     </ul>
                 </div>
@@ -127,6 +125,7 @@
                     <p class="normal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
 
                     <p class="normal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus</p>
+                    <img src="assets/pic_signature.svg" class="picture picture__signature" alt = "Firma ilegible">
                 </div>
                 <div class="main__skills">
                     <h1 class="title__primary">Skills</h1>
